@@ -36,8 +36,11 @@ class Sub extends JFrame implements MouseListener
 		//jb0.setEnabled(false);	//클릭이 안되게
 		jb0.setEnabled(true);	//클릭이 된다
 		con.add(jb0);
+		jb1.setMnemonic('a');	//ALT + 'a' 단축키 지정
+		
 		con.add(jb1);
 		jb2.setRolloverIcon(im2);
+		jb2.setMnemonic('b');	//ALT + 'b' 단축키 지정
 		con.add(jb2);
 		
 		this.setSize(400, 300);
